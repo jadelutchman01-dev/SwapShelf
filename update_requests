@@ -1,0 +1,26 @@
+<?php
+include "includes/session.php";
+include "includes/db.php";
+
+if (!isset($_GET['id']) || !isset($_GET['status'])) {
+    header("Location: incoming_requests.php");
+    exit();
+}
+
+$request_id = $_GET['id'];
+$status = $_GET['status'];
+
+if ($status != "Approved" && $status != "Declined") {
+    header("Location: incoming_requests.php");
+    exit();
+}
+
+$sql = "UPDATE swap_requests 
+        SET status = '$status' 
+        WHERE id = '$request_id'";
+
+mysqli_query($conn, $sql);
+
+header("Location: incoming_requests.php");
+exit();
+?>
