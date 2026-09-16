@@ -1,59 +1,146 @@
-#  SwapShelf
+<div align="center">
 
-SwapShelf is a C2C (customer-to-customer) textbook exchange platform developed as an academic project. The system is designed to help students exchange textbooks they no longer need with other students through a credit-based swapping system.
+# SwapShelf
 
-##  About the Project
+### A C2C Textbook Exchange Platform
 
-Buying textbooks can be expensive, while students often have textbooks they no longer use. SwapShelf was developed as a platform where students can list their available textbooks, browse books listed by other users and request exchanges.
+*A database-driven web application designed to make textbook exchange more accessible, structured and reliable for students.*
 
-The project gave me practical experience in developing a database-driven web application and connecting front-end functionality with PHP and MySQL.
+<br>
 
-##  Technologies Used
+![PHP](https://img.shields.io/badge/PHP-Web%20Development-777BB4)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1)
+![CSS](https://img.shields.io/badge/CSS-Styling-1572B6)
+![Academic Project](https://img.shields.io/badge/Project-Academic-success)
 
-- PHP
-- MySQL
-- SQL
-- HTML
-- CSS
-- XAMPP
+</div>
 
-##  Key Features
+---
 
-- User registration and login
-- User dashboard
+## About SwapShelf
+
+Buying textbooks can be expensive, while students often have textbooks they no longer use.
+
+**SwapShelf** is a C2C (customer-to-customer) textbook exchange platform that allows students to list textbooks, browse books offered by other users and request exchanges through a credit-based swapping system.
+
+The project was developed as part of my BSc Computer Science studies and gave me practical experience in building a database-driven web application using PHP and MySQL.
+
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| **PHP** | Server-side application logic |
+| **MySQL / SQL** | Database storage and queries |
+| **HTML** | Website structure |
+| **CSS** | Interface design and responsive styling |
+| **JavaScript** | Client-side interactions |
+| **XAMPP** | Local development environment |
+
+---
+
+## Key Features
+
+- User registration and authentication
 - Add and manage textbook listings
-- Browse available textbooks
-- View individual book information
+- Browse and search available textbooks
 - Request textbook swaps
-- Manage incoming swap requests
+- Credit-based swapping system
+- Manage incoming and outgoing requests
 - Approve and complete swaps
-- Credit-based swapping functionality
-- Admin dashboard
-- User and book management
+- User dashboard
+- Administrator dashboard
+- User and textbook management
+
+---
+
+## Application Preview
+
+### Landing Page
+
+The landing page introduces SwapShelf and provides users with options to register or log in.
+
+![SwapShelf Landing Page](docs/screenshots/landing%20page.png)
+
+<br>
+
+### User Dashboard
+
+The dashboard provides logged-in users with access to the main SwapShelf features and displays their available book credits.
+
+![SwapShelf User Dashboard](docs/screenshots/dashboard.png)
+
+<br>
+
+### Browse Textbooks
+
+Users can browse available textbooks and search for books listed by other students.
+
+![Browse Textbooks](docs/screenshots/browse%20textbooks.png)
+
+<br>
+
+### My Swaps
+
+Users can view and manage incoming and outgoing textbook swap requests.
+
+![SwapShelf My Swaps](docs/screenshots/my%20swaps.png)
+
+<br>
+
+### Admin Dashboard
+
+The administrator dashboard provides an overview of platform activity and access to user and textbook management functionality.
+
+![SwapShelf Admin Dashboard](docs/screenshots/admin%20dashboard.png)
+
+---
+
+## What I Learned
+
+Through the development of SwapShelf, I gained practical experience in:
+
+- Building a database-driven web application
+- Connecting PHP applications to MySQL
+- Writing and working with SQL queries
+- Implementing user authentication and sessions
+- Developing CRUD functionality
+- Working with relational database structures
+- Implementing application business logic
+- Creating responsive interfaces
+- Debugging and testing web application functionality
+
+---
 
 ## Project Structure
 
-- `css/` - Website styling
-- `includes/` - Database connection, sessions and reusable page components
-- `uploads/` - Images used for textbook listings
-- PHP pages - Application functionality including authentication, book management, swaps and administration
+```text
+SwapShelf/
+├── css/
+├── docs/
+│   └── screenshots/
+├── includes/
+├── uploads/
+├── index.php
+├── login.php
+├── register.php
+├── dashboard.php
+├── browse_books.php
+├── add_book.php
+├── my_books.php
+├── my_swaps.php
+└── admin_dashboard.php
+```
 
-##  What I Learned
+---
 
-Through this project, I gained practical experience in:
+<div align="center">
 
-- Building a database-driven web application
-- Working with PHP and MySQL
-- Using SQL to interact with application data
-- Implementing user authentication and sessions
-- Developing CRUD functionality
-- Connecting front-end pages to back-end functionality
-- Debugging and testing web application features
+### Academic Project
 
-##  Screenshots
+Developed as part of my **BSc Computer Science** studies.
 
-Screenshots of the application interface will be added here.
+**Jade Lutchman**
 
-##  Project Information
-
-This project was developed for academic purposes as part of my BSc Computer Science studies.
+</div>
