@@ -1,14 +1,14 @@
-# 📚 SwapShelf
+#  SwapShelf
 
 SwapShelf is a C2C (customer-to-customer) textbook exchange platform developed as an academic project. The system is designed to help students exchange textbooks they no longer need with other students through a credit-based swapping system.
 
-## 💡 About the Project
+##  About the Project
 
 Buying textbooks can be expensive, while students often have textbooks they no longer use. SwapShelf was developed as a platform where students can list their available textbooks, browse books listed by other users and request exchanges.
 
 The project gave me practical experience in developing a database-driven web application and connecting front-end functionality with PHP and MySQL.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - PHP
 - MySQL
@@ -17,7 +17,7 @@ The project gave me practical experience in developing a database-driven web app
 - CSS
 - XAMPP
 
-## ✨ Key Features
+##  Key Features
 
 - User registration and login
 - User dashboard
@@ -31,14 +31,14 @@ The project gave me practical experience in developing a database-driven web app
 - Admin dashboard
 - User and book management
 
-## 📁 Project Structure
+## Project Structure
 
 - `css/` - Website styling
 - `includes/` - Database connection, sessions and reusable page components
 - `uploads/` - Images used for textbook listings
 - PHP pages - Application functionality including authentication, book management, swaps and administration
 
-## 🎯 What I Learned
+##  What I Learned
 
 Through this project, I gained practical experience in:
 
@@ -50,10 +50,10 @@ Through this project, I gained practical experience in:
 - Connecting front-end pages to back-end functionality
 - Debugging and testing web application features
 
-## 📸 Screenshots
+##  Screenshots
 
 Screenshots of the application interface will be added here.
 
-## ℹ️ Project Information
+##  Project Information
 
 This project was developed for academic purposes as part of my BSc Computer Science studies.
